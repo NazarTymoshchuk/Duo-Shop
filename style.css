@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&family=Oswald:wght@200..700&family=Playwrite+AU+SA:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 body {
     margin: 0;
 }
@@ -13,7 +16,7 @@ header {
 }
 
 header input {
-    width: 50%;
+    flex-basis: 50%;
     height: 30px;
 
     border-radius: 10px;
@@ -37,4 +40,89 @@ header input {
     height: 50px;
 }
 
+footer {
+    display: flex;
 
+    flex-direction: column;
+
+    height: 200px;
+    background-color: rgb(0, 0, 60);
+
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+.footer-menu {
+    width: 50%;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.menu-item {
+    text-decoration: none;
+
+    color: white;
+}
+
+footer>p {
+    color: white;
+}
+
+main {
+    display: flex;
+
+    background-color: rgb(243, 243, 243);
+}
+
+.side-bar {
+    flex-basis: 20%;
+    min-width: 100px;
+}
+
+.main-content {
+    flex-basis: 80%;
+}
+
+.product {
+    display: inline-block;
+
+    width: 250px;
+
+    background-color: white;
+
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+.product > img {
+    width: 250px;
+    height: 300px;
+
+    object-fit: contain;
+}
+
+.product > h3 {
+    text-align: center;
+
+    font-family: "Roboto Mono", serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+}
+
+.product > div {
+    font-size: 22px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
