@@ -91,7 +91,6 @@ main {
     display: inline-block;
 
     width: 250px;
-    max-height: 400px;
     min-height: 400px;
 
     background-color: white;
