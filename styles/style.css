@@ -72,7 +72,7 @@ footer>p {
     color: white;
 }
 
-main {
+.main-container {
     display: flex;
 
     background-color: rgb(243, 243, 243);
@@ -101,14 +101,19 @@ main {
     border-radius: 10px;
 }
 
-.product > img {
+.product a {
+    text-decoration: none;
+    color: black;
+}
+
+.product img {
     width: 250px;
     height: 300px;
 
     object-fit: contain;
 }
 
-.product > h3 {
+.product h3 {
     text-align: center;
 
     font-family: "Roboto Mono", serif;
@@ -118,7 +123,7 @@ main {
     font-size: 16px;
 }
 
-.product > div {
+.product div {
     font-size: 22px;
 
     font-family: Arial, Helvetica, sans-serif;
